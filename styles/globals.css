@@ -22,11 +22,24 @@ html,
 body {
   background-color: #110d0c;
 }
-
+body::-webkit-scrollbar {
+  display: none;
+}
 ::-moz-selection {
   background: #5b464290;
 }
 
 ::selection {
   background: #5b464290;
+}
+
+.dimagkharab{
+  /* width: 300px !important; */
+  padding: 0 50px;
+}
+.customCss{
+  scroll-snap-type: mandatory;
+}
+.customCss section{
+  scroll-snap-align: center;
 }
